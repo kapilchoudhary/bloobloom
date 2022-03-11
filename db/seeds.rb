@@ -11,8 +11,11 @@ frame2 = Frame.create([{name: 'Rectangle',description: 'Test-frame', status: 0 ,
 frame3 =Frame.create([{name: 'Aviator',description: 'Test-frame', status: 0 ,stock: 45, price: 1500.0}])
 
 lense1 = Lense.create([{color: 'Blue', description: 'First lenes to test', prescription_type: 1 , lens_type: 0, stock: 45, price: 567.4}])
-lense2 = Lense.create([{color: 'Black', description: 'Second lenes to test', prescription_type: 2, lens_type: 1, stock: 445, price: 2000}])
+lense2 = Lense.create([{color: 'Black', description: 'Second lenes to test', prescription_type: 2, lens_type: 1, stock: 45, price: 2000}])
 lense3 = Lense.create([{color: 'Red', description: 'Second lenes to test', prescription_type: 0, lens_type: 1, stock: 50, price: 2530}])
 
 user1 = User.create(first_name:"Test", last_name:"User",username: "Bloobloom", password: "Qwerty123", admin:true, email:"first@test.com")
 user2 = User.create(first_name:"Test", last_name:"Two",username: "bloobloomglasses", password: "Qwerty123", email:"user@bloobloom.com", admin:false, currency:0)
+user3 = User.create(first_name:"Test", last_name:"Three",username: "bloobloomone", password: "blooBloom1$", email:"user1@bloobloom.com", admin:true, currency:1)
+user4 = User.create(first_name:"Test", last_name:"Four",username: "bloobloomtwo", password: "blooBloom1$", email:"user2@bloobloom.com", admin:true, currency:2)
+user5 = User.create(first_name:"Test", last_name:"Five",username: "bloobloomthree", password: "blooBloom1$", email:"user3@bloobloom.com", admin:false, currency:3)

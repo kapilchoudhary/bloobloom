@@ -4,4 +4,5 @@ class Api::V1::User::LensesController < ApplicationController
     @lenses = Lense.all
     render json: @lenses
   end
+
 end
